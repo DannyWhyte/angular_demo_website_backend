@@ -18,9 +18,6 @@ var test = function(req, res) {
 function sendMail(response) {
     console.log(response)
     var deferred = q.defer();
-    var fullname = response.name;
-    var email = response.email;
-    var newPassword = response.newPassword;
     var transporter = nodemailer.createTransport(smtpTransport({
         service: "Gmail",
         host: 'imap.gmail.com',
