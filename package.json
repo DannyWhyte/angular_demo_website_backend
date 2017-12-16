@@ -1,0 +1,35 @@
+{
+    "name": "anular-demo-website-backend",
+    "version": "0.0.1",
+    "private": true,
+    "description": "backend for angular demo website ",
+    "keywords": [
+        "node",
+        "express",
+        "smtp transprt"
+    ],
+    "author": "",
+    "license": "",
+    "main": "app.js",
+    "dependencies": {
+        "body-parser": "^1.17.1",
+        "cors": "^2.8.3",
+        "express": "^4.12.3",
+        "nodemailer": "^4.0.1",
+        "nodemailer-smtp-transport": "^2.7.4",
+        "q": "^1.5.0",
+        "swagger-express-mw": "^0.1.0",
+        "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.2.0",
+        "should": "^7.1.0",
+        "supertest": "^1.0.0"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "test1": "swagger project test",
+        "test": "mocha --timeout 15000 --recursive --reporter spec"
+    }
+}
